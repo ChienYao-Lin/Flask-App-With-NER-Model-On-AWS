@@ -1,0 +1,44 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Login {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Page content -->
+    <!-- Header -->
+    <div class="container-fluid pt-5">
+      <div class="row-justify-content-center">
+        <div class="col-sm">
+          <form role="form" method="post" action="">
+            <div class="input-group">
+              {{ form.text_input(placeholder="Description of the job you want to analyse", class="form-control",type="text") }}
+            </div>
+            <div class="text-center">
+              <button type="reset" name="clear" class="btn btn-primary my-4" onclick="javascript:eraseText();">Clear</button>
+              <button type="submit" name="job_analysis" class="btn btn-primary my-4">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row-justify-content-center">
+          {% if results %}
+            <h2>Result</h2>
+            {% for result in results %}
+              {{result | markdown}}
+            {% endfor %}  
+          {% endif %}
+      </div>
+      {% include "includes/footer.html" %}
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}{% endblock javascripts %}
+
+function eraseText() {
+    document.getElementById("output").value = "";
+}

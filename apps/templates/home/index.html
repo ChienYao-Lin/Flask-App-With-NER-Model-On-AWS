@@ -1,0 +1,29 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Dashboard {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+    <!-- Page content -->
+    <!-- Header -->
+    <div class="container-fluid pt-5">
+      <div class="row-justify-content-center">
+        <div class="col-sm">
+          <h1>Home Page</h1>
+          Just a home page.
+        </div>
+      </div>
+    </div>
+
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE --> 
+{% block javascripts %}
+
+  <script src="/static/assets/vendor/chart.js/dist/Chart.min.js"></script>
+  <script src="/static/assets/vendor/chart.js/dist/Chart.extension.js"></script>
+
+{% endblock javascripts %}

@@ -1,0 +1,12 @@
+.git
+.md
+env
+__pycache__
+images
+lambda
+*.pyc
+*.pyo
+*.pyd
+.elasticbeanstalk/*
+.git
+.gitignore
