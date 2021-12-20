@@ -14,7 +14,7 @@ $ pip install awscli
 
 - AWS EB CLI ([Installation Guide](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html))
 ```bash
-$ # Quick Install (MacOS)
+ # Quick Install (MacOS)
 $ brew install awsebcli
 ```
 
@@ -25,7 +25,7 @@ $ brew install awsebcli
 > UNZIP the sources or clone the private repository. After getting the code
 
 ```bash
-$ # Get the code
+ # Get the code
 $ git clone git url
 $ cd wordir
 ```
@@ -33,10 +33,10 @@ $ cd wordir
 > Deploy the Docker container on [AWS Elastic Beanstalk](https://docs.aws.amazon.com/elastic-beanstalk/index.html)
 
 ```bash
-$ # Initial the app
+ # Initial the app
 $ eb init -p docker application-name -r region
 $ 
-$ # Deploy the app
+ # Deploy the app
 $ eb create environment-name
 
 ```
