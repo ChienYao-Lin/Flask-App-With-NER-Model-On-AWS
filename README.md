@@ -2,6 +2,7 @@
 The goal of this project is to deploy a web app that can do NER based on my [previous spaCy project](https://github.com/ChienYao-Lin/JobSkillSet.git). This app will be deployed on AWS Elastic Beanstalk with a Docker container.  At the same time, the NER model will be deployed on AWS Lambda and the spaCy package will be installed on the lambda layer. 
 
 ![](https://github.com/ChienYao-Lin/Flask-App-With-NER-Model-On-AWS/blob/main/images/demo.png)
+![](https://github.com/ChienYao-Lin/Flask-App-With-NER-Model-On-AWS/blob/main/images/AWS_Diagram.png)
 <br />
 
 ## Requirements
@@ -110,7 +111,12 @@ $ eb open
 
 <br />
 
-## Credits
+## Reference
+Amazon Web Services 2021, AWS Elastic Beanstalk Developer Guide - https://docs.aws.amazon.com/elasticbeanstalk/latest/dg
+Creative Tim and AppSeed 2021, Argon Dashboard Flask - https://github.com/creativetimofficial/argon-dashboard-flask.git
+Matthew Mascioni 2020, Using external Python packages with AWS Lambda layers - https://dev.to/mmascioni/using-external-python-packages-with-aws-lambda-layers-526o
+Flask, User’s Guide - https://flask.palletsprojects.com/en/2.0.x/
+
 
 
 
