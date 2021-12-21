@@ -112,10 +112,10 @@ $ eb open
 <br />
 
 ## Reference
-Amazon Web Services 2021, AWS Elastic Beanstalk Developer Guide - https://docs.aws.amazon.com/elasticbeanstalk/latest/dg
-Creative Tim and AppSeed 2021, Argon Dashboard Flask - https://github.com/creativetimofficial/argon-dashboard-flask.git
-Matthew Mascioni 2020, Using external Python packages with AWS Lambda layers - https://dev.to/mmascioni/using-external-python-packages-with-aws-lambda-layers-526o
-Flask, User’s Guide - https://flask.palletsprojects.com/en/2.0.x/
+* Amazon Web Services 2021, AWS Elastic Beanstalk Developer Guide - https://docs.aws.amazon.com/elasticbeanstalk/latest/dg
+* Creative Tim and AppSeed 2021, Argon Dashboard Flask - https://github.com/creativetimofficial/argon-dashboard-flask.git
+* Matthew Mascioni 2020, Using external Python packages with AWS Lambda layers - https://dev.to/mmascioni/using-external-python-packages-with-aws-lambda-layers-526o
+* Flask, User’s Guide - https://flask.palletsprojects.com/en/2.0.x/
 
 
 
