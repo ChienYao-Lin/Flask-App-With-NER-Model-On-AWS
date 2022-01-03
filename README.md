@@ -27,7 +27,7 @@ $ brew install awsebcli
 ```bash
  # Get the code
 $ git clone git url
-$ cd wordir
+$ cd workdir
 ```
 
 > Deploy the Docker container on [AWS Elastic Beanstalk](https://docs.aws.amazon.com/elastic-beanstalk/index.html)
